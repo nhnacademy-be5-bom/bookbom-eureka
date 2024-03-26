@@ -41,8 +41,8 @@ jobs:
         username: ${{ secrets.SSH_ID }}
         key: ${{ secrets.SSH_KEY }}
         port: ${{ secrets.SSH_PORT }}
-        source: "target_eureka/*.jar"
-        target: "~/"
+        source: "target/*.jar"
+        target: "~/target_eureka"
         rm: false
 
     - name: execute shell script
