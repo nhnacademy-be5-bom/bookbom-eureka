@@ -16,7 +16,6 @@
     <version>1.0-SNAPSHOT</version>
     <name>eureka</name>
     <description>eureka</description>
-    <packaging>jar</packaging>
 
     <properties>
         <java.version>11</java.version>
@@ -46,7 +45,7 @@
     </dependencyManagement>
 
     <dependencies>
-        
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
